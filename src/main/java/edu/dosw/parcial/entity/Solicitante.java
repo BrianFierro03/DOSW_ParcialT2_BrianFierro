@@ -6,7 +6,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "Solicitantes")
-public class Solicitante {
+public class Solicitante extends Usuario{
     @Id 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private UUID id;

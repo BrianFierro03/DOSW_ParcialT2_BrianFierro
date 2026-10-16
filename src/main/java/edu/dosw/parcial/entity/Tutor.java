@@ -22,7 +22,7 @@ public class Tutor extends Usuario{
         this.disponibilidades = disponibilidades;
     }
 
-    public List<Disponibilidad> getDisponibilidads(){
+    public List<Disponibilidad> getDisponibilidades(){
         return this.disponibilidades;
     }
 }

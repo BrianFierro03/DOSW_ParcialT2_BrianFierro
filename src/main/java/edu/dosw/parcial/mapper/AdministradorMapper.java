@@ -4,7 +4,7 @@ import edu.dosw.parcial.model.AdministradorModel;
 import edu.dosw.parcial.entity.Administrador;
 import org.mapstruct.Mapper;
 
-@Mapper(componentModel = "spring", uses = UsuarioMapper.class)
+@Mapper(componentModel = "spring")
 public interface AdministradorMapper {
 
     AdministradorModel toModel(Administrador entity);
