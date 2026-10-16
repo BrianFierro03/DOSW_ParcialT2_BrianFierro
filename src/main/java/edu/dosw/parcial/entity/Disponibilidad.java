@@ -98,7 +98,7 @@ public class Disponibilidad {
     public Modalidad getModalidad(){
         return this.modalidad;
     }
-    public void setDisponibilidad(EstadoDisponibilidad estado){
+    public void setEstado(EstadoDisponibilidad estado){
         this.estado = estado;
     }
 
