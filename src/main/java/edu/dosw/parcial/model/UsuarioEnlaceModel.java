@@ -11,15 +11,16 @@ import java.util.List;
  *   <li>El estudiante de posgrado no tiene materias inscritas (lista vacía).</li>
  * </ul>
  */
-public class UsuarioEnlaceModel(
+public class UsuarioEnlaceModel/*(
         String id,
         String nombre,
         String programa,
         Estado estado,
         Rol rol,
         Nivel nivel,
-        List<String> materiasInscritas) {
-
+        List<String> materiasInscritas )*/ {
+    
+            /*
     public enum Estado { ACTIVO, INACTIVO }
 
     public enum Rol { PROFESOR, ESTUDIANTE }
@@ -28,5 +29,5 @@ public class UsuarioEnlaceModel(
 
     public UsuarioEnlaceModel {
         materiasInscritas = materiasInscritas == null ? List.of() : List.copyOf(materiasInscritas);
-    }
+    }*/
 }
